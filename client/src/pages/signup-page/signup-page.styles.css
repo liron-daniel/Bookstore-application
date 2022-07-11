@@ -1,0 +1,19 @@
+.signup-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: calc(100vh - 110px);
+    background-color: rgb(235, 230, 240);
+}
+
+.signup-card{
+    max-height: 90%;
+    min-height: 70vh;
+}
+
+.signup-card-title{
+    margin: 20px 20px 30px;
+    color: blueviolet;
+}
+

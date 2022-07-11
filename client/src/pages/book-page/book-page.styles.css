@@ -1,0 +1,98 @@
+.book-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    min-height: calc(100vh - 60px - 50px);
+    background-color: rgb(235, 230, 240);
+    padding: 70px;
+    gap: 70px;
+}
+
+.book-page-cover{
+    width: 250px;
+    height: 400px;
+    object-fit: fill;
+}
+
+.book-page-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    min-height: 300px;
+    max-height: 400px;
+}
+
+.book-page-title{
+    font-family: 'Joan', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.book-page-author{
+    font-family: 'Joan', serif;
+    font-size: 22px;
+}
+
+.book-page-pages{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.book-quantity-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.update-quantity-btn{
+    border-radius: 3px;
+    border-width: 1.59px;
+    font-family: 'Fresca', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 27px;
+    height: 28px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.book-quantity{
+    font-size: 20px;
+}
+
+.book-page-price{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.add-to-cart-btn{
+    font-family: 'Fresca', sans-serif;
+    width: 140px;
+    height: 35px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}
+
+/* .book-page-description-container{} */
+
+.book-page-decription-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+
+.book-page-description{
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    max-width: 770px;
+}

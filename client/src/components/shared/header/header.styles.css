@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    background-color: blueviolet;
+    padding: 0 20px;
+    font-family: 'Joan', serif;
+}
+
+.header .headline-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(235, 230, 240);
+}
+
+.header .hamburger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 45px;
+    height: 100%;
+    padding: 6px;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header .hamburger-btn .bar {
+    width: 100%;
+    height: 4px;
+
+    background-color: rgb(235, 230, 240);
+    border-radius: 5px;
+}

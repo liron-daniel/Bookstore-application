@@ -1,0 +1,12 @@
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0;
+    width: 300px;
+}
+
+.error-message {
+    font-size: 13px;
+    color: red;
+}

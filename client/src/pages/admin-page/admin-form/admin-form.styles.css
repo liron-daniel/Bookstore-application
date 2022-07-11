@@ -1,0 +1,25 @@
+.admin-card-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#admin-submit-button{
+    background-color: blueviolet;
+    color: white;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Joan', serif;
+    font-size: 18px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+#admin-submit-button:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}

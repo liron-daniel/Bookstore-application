@@ -1,0 +1,34 @@
+.book-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.book-cover{
+    width: 160px;
+    height: 260px;
+    object-fit: fill;
+}
+
+.book-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    max-width: 160px;
+    height: 145px;
+}
+
+.book-title{
+    font-family: 'Fresca', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.book-author{
+    font-family: 'Fresca', sans-serif;
+    text-align: center;
+}

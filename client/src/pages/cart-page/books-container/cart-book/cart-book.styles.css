@@ -1,0 +1,240 @@
+.cart-book-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.cart-book-cover{
+    max-width: 160px;
+    max-height: 260px;
+    object-fit: fill;
+}
+
+.cart-book-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-book-title{
+    text-align: center;
+}
+
+.cart-book-author{
+    text-align: center;
+}
+
+.cart-book-quantity-container{
+    display: flex;
+    gap: 10px;
+}
+
+.update-cart-btn{
+    border-radius: 3px;
+    border-width: 1.59px;
+    font-family: 'Fresca', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 27px;
+    height: 28px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cart-book-quantity{
+    font-size: 20px;
+}
+
+.cart-book-price-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-book-price{
+    text-align: center;
+}
+
+.delete-from-cart-btn{
+    font-family: 'Fresca', sans-serif;
+    /* width: 85px;
+    height: 32px; */
+    background-color: rgb(200, 4, 4);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+
+.delete-from-cart-btn:hover{
+    background-color: rgba(200, 4, 4, 0.85);
+}
+
+@media screen and (max-width: 480px) {
+    .cart-book-container{
+        width: 45vw;
+        height: 420px;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .cart-book-cover{
+        max-width: 30vw;
+        max-height: 60vh;
+    }
+
+    .cart-book-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart-book-title{
+        font-size: 17px;
+    }
+
+    .cart-book-author{
+        font-size: 13px;
+    }
+
+    .cart-book-price-btn{
+        flex-direction: column;
+    }
+
+    .delete-from-cart-btn{
+        width: 60px;
+        height: 27px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 790px) {
+    .cart-book-container{
+    width: 50vw;
+    height: 570px;
+    flex-direction: column;
+    font-size: 18px;
+    }
+
+    .cart-book-cover{
+        /* max-width: 200px;
+        max-height: 300px; */
+        max-width: 30vw;
+        max-height: 70vh;
+    }
+
+    .cart-book-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart-book-title{
+        font-size: 20px;
+    }
+
+    .cart-book-author{
+        font-size: 15px;
+    }
+
+   .cart-book-price-btn{
+        flex-direction: column;
+    }
+
+    .delete-from-cart-btn{
+        width: 65px;
+        height: 29px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 790px) and (max-width: 1000px) {
+    .cart-book-container{
+        width: 60vw;
+        height: 250px;
+        flex-wrap: nowrap;
+        gap: 10px;
+        font-size: 19px;
+    }
+
+    .cart-book-cover{
+        max-width: 130px;
+        max-height: 200px;
+    }
+
+    .cart-book-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-book-title{
+        font-size: 21px;
+    }
+
+    .cart-book-author{
+        font-size: 16px;
+    }
+
+    .cart-book-price-btn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .delete-from-cart-btn{
+        width: 75px;
+        height: 30px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cart-book-container{
+        width: 60vw;
+        height: 250px;
+        flex-wrap: nowrap;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .cart-book-cover{
+        max-width: 130px;
+        max-height: 200px;
+    }
+
+    .cart-book-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart-book-title{
+        font-size: 24px;
+    }
+
+    .cart-book-author{
+        font-size: 17px;
+    }
+
+    .cart-book-price-btn{
+        flex-direction: row;
+    }
+
+    .delete-from-cart-btn{
+        width: 85px;
+        height: 32px;
+        font-size: 20px;
+    }
+}

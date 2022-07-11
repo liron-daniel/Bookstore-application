@@ -1,0 +1,65 @@
+.book-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#book-form-submit-btn{
+    margin-bottom: 30px;
+    margin-top: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 70px;
+    height: 27px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+#book-form-submit-btn:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}
+
+.book-form .btn-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#update-book-submit-btn{
+    margin-bottom: 30px;
+    background-color: blueviolet;
+    color: white;
+    width: 125px;
+    height: 28px;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#update-book-submit-btn:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}
+
+#delete-book-btn{
+    margin-bottom: 30px;
+    background-color: blueviolet;
+    color: white;
+    width: 120px;
+    height: 28px;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#delete-book-btn:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}

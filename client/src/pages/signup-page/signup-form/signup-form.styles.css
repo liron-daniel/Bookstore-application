@@ -1,0 +1,28 @@
+.signup-card-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-link{
+    color: blueviolet;
+}
+
+#signup-submit-button{
+    background-color: blueviolet;
+    color: white;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+#signup-submit-button:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}

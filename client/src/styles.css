@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Fresca&family=Joan&family=Kalam:wght@300;400;700&family=Patrick+Hand&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* font-family: 'Courgette', cursive; */
+    /* font-family: 'Fredoka One', cursive; */
+    /* font-family: 'Fresca', sans-serif; */
+    /* font-family: 'Joan', serif; */
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'Patrick Hand', cursive; */
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}

@@ -1,0 +1,39 @@
+.page-not-found-main{
+    width: 100vw;
+    height: calc(100vh - 60px - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(137, 43, 226, 0.1);
+}
+
+.page-not-found-main .page-not-found-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: blueviolet;
+}
+
+.page-not-found-main .page-not-found-title .page-not-found-header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-not-found-main .page-not-found-btn{
+    width: 100px;
+    height: 36px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 150px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.page-not-found-main .page-not-found-btn:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}

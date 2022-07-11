@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(137, 43, 226, 0.344);
+}
+
+.footer .span{
+    color: rgb(94, 94, 94);
+    font-family: 'Kalam', cursive;
+}

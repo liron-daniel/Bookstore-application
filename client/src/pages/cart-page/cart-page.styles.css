@@ -1,0 +1,44 @@
+.empty-cart-page{
+    width: 100vw;
+    min-height: calc(100vh - 60px - 50px);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 230, 240);
+    font-family: 'Fresca', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.cart-page{
+    width: 100vw;
+    min-height: calc(100vh - 60px - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(235, 230, 240);
+}
+
+.total-price{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.buy-cart-btn{
+    font-family: 'Fresca', sans-serif;
+    width: 120px;
+    height: 38px;
+    color: rgb(235, 230, 240);
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.buy-cart-btn:hover{
+    background-color: rgba(137, 43, 226, 0.836);
+}

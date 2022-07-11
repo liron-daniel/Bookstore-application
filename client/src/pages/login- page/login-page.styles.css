@@ -1,0 +1,19 @@
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: calc(100vh - 110px);
+    background-color: rgb(235, 230, 240);
+}
+
+.login-card{
+    max-height: 30%;
+    min-height: 39vh;
+}
+
+.login-card-title{
+    margin: 20px 20px 30px;
+    color: blueviolet;
+}
+
